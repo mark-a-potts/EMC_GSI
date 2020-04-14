@@ -61,7 +61,8 @@ if(BUILD_ENKF)
 # endif()
   
   add_definitions(${MPI_Fortran_FLAGS})
-  
+  set(CORE_INCS ${CRTM_INC};${W3EMC_INC4};${NEMSIO_INC};${SFCIO_INC4};${SIGIO_INC4})
+  set(CORE_LIBRARIES ${BUFR_LIB4};${BACIO_LIB4};${CRTM_LIB};${NEMSIO_LIB};${SP_LIBd};${SIGIO_LIB4};${SFCIO_LIB4};${W3EMC_LIBd};${W3NCO_LIBd};${BUFR_LIB4})
   include_directories(${CMAKE_CURRENT_BINARY_DIR} "${PROJECT_BINARY_DIR}/include/wrf" "${PROJECT_BINARY_DIR}/include/global"  ${CMAKE_CURRENT_BINARY_DIR}/.. ${MPI_Fortran_INCLUDE_DIRS} ${MPI_Fortran_INCLUDE_PATH} ${CORE_INCS} ${NETCDF_INCLUDES} ${NCDIAG_INCS} )
   link_directories(${MPI_Fortran_LIBRARIES})
 
