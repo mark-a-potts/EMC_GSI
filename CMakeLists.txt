@@ -194,7 +194,7 @@ project(GSI)
   else()
     message("libsrc/wrflib not pulled from git, looking for WRF dependencies locally")
     message("libsrc/wrflib not pulled from git, looking for WRF dependencies locally")
-    find_package( WRF )
+#   find_package( WRF )
   endif()
 
   # default installation

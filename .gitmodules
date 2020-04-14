@@ -1,3 +1,6 @@
 [submodule "libsrc"]
 	path = libsrc
 	url = git@github.com:NOAA-EMC/NCEPLIBS
+[submodule "cmake"]
+	path = cmake
+	url = https://github.com/NOAA-EMC/CMakeModules
