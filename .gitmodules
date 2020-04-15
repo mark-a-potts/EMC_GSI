@@ -1,3 +1,30 @@
 [submodule "cmake"]
 	path = cmake
 	url = https://github.com/mark-a-potts/CMakeModules
+[submodule "NCEPLIBS/bacio"]
+	path = NCEPLIBS/bacio
+	url = git@github.com:NOAA-EMC/NCEPLIBS-bacio
+[submodule "NCEPLIBS/crtm"]
+	path = NCEPLIBS/crtm
+	url = git@github.com:NOAA-EMC/EMC_crtm
+[submodule "NCEPLIBS/nemsio"]
+	path = NCEPLIBS/nemsio
+	url = git@github.com:NOAA-EMC/NCEPLIBS-nemsio
+[submodule "NCEPLIBS/bufr"]
+	path = NCEPLIBS/bufr
+	url = git@github.com:NOAA-EMC/NCEPLIBS-bufr
+[submodule "NCEPLIBS/sfcio"]
+	path = NCEPLIBS/sfcio
+	url = git@github.com:NOAA-EMC/NCEPLIBS-sfcio
+[submodule "NCEPLIBS/sigio"]
+	path = NCEPLIBS/sigio
+	url = git@github.com:NOAA-EMC/NCEPLIBS-sigio
+[submodule "NCEPLIBS/sp"]
+	path = NCEPLIBS/sp
+	url = git@github.com:NOAA-EMC/NCEPLIBS-sp
+[submodule "NCEPLIBS/w3emc"]
+	path = NCEPLIBS/w3emc
+	url = git@github.com:NOAA-EMC/NCEPLIBS-w3emc
+[submodule "NCEPLIBS/w3nco"]
+	path = NCEPLIBS/w3nco
+	url = git@github.com:NOAA-EMC/NCEPLIBS-w3nco
