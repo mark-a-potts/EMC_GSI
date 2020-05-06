@@ -7,7 +7,7 @@ if(BUILD_NCDIAG)
     # NetCDF-4 library
     set(NCDIAG_SERIAL_INCS "${PROJECT_BINARY_DIR}/include/ncdiag_serial")
 
-    include_directories( ${NETCDF_INCLUDES} ${NCDIAG_SERIAL_INCS} )
+    include_directories( ${NetCDF_INCLUDE_DIRS} ${NCDIAG_SERIAL_INCS} )
 
     # 32-bit reals, for now
     add_definitions(-D_REAL4_)
