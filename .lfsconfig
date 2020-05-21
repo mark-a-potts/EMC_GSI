@@ -1,2 +1,2 @@
 [remote "origin"]
-	lfsurl = http://vm-lnx-emcrzdm02.ncep.noaa.gov:8080
+	lfsurl = http://localhost:8080
