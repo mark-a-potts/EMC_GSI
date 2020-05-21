@@ -1,2 +1,2 @@
 [remote "origin"]
-	lfsurl = https://10.0.0.51:8080
+	lfsurl = http://127.0.0.1:8080
