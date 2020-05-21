@@ -1,2 +1,2 @@
 [remote "origin"]
-	lfsurl = http://localhost:8080
+	lfsurl = http://rzdm2.ncep.noaa.gov:8080
